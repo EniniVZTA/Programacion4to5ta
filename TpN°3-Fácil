@@ -1,0 +1,19 @@
+#include<iostream>;
+using namespace std;
+int main ()
+{
+   
+    float a,b,c;
+   
+    cout<<"ingrese el primer valor:"<<endl ;
+   
+    cin>>a; // 3) El S.O. da el mensaje al usuario de ingresar el valor "a", mediante el teclado, este valor es mostrado en pantalla.
+   
+    cout<<"ingrese el segundo valor:"<<endl;
+    cin>>b;
+    cout<<"ingrese el tercer valor:"<<endl;
+    cin>>c;
+   
+    cout<<"el promedio es:"<<(a+b+c)/3,0;
+   
+    return 0;T
