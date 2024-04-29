@@ -1,0 +1,66 @@
+1 CICLO REPETITIVO DO WHILE
+
+#include <iostream>
+#include <string>
+using namespace std;
+
+int main()
+{
+	int i=1 ;
+	
+	do
+	{
+		cout<< "HOLA MUNDO"<<i<<endl;
+		i++;
+	}
+	while (i<=100);
+	
+	
+	return 0; 
+}
+
+
+
+
+
+2) CICLO REPETITIVO FOR
+#include <iostream>
+#include <string>
+using namespace std;
+
+int main()
+{
+	int i ;
+	
+	for (i=100; i>=1;i--)
+	{
+		cout<< "Hola Mundo :D"<<i<<endl;
+	}
+	
+	
+	
+	return 0; 
+}
+
+
+
+
+3) CICLO REPETITIVO WHILE
+
+#include <iostream>
+#include <string>
+using namespace std;
+
+int main()
+{
+	int i=1 ;
+	
+	//for (i=100; i>=1; i--)
+	while (i<=100)
+	{
+		cout<<"Hola Mundo"<<i<<endl;
+		i++;
+	}
+	
+		return 0;
+	}
