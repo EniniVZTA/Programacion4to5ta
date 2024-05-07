@@ -1,0 +1,21 @@
+1.  ¿ Cuántas veces se ejecuta el cuerpodel siguiente bucle ?
+
+se ejecuta 0 veces el cuerpo del bucle
+
+#include <iostream>
+using namespace std;
+
+
+int main()
+{
+int i = 0;
+while (i<=10) {
+   i ++;
+    if (i <10)
+      {i=0;}
+   if (i== 10)
+      {i=12; }
+
+}
+cout<<i<<endl;
+return 0;
